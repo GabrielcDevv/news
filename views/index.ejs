@@ -1,0 +1,9 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+    <% for(let news of newsNews){ %>
+        <h1><%= news.title %></h1>
+    <% } %>
+    <button class="showmore"> Show more </button>
+<script src="/index.js"></script>
+</body>
